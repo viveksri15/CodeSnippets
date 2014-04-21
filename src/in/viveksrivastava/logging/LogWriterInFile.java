@@ -12,7 +12,6 @@ import java.util.concurrent.Executors;
  */
 public class LogWriterInFile {
     private class LogWriter implements Runnable {
-
         FileWriter fw;
         Map<String, Object> data;
 
