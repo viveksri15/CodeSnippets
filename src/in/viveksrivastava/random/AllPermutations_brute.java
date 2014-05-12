@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Created by ubona on 13-05-2014.
+ * Created by vivek on 13-05-2014.
  */
 public class AllPermutations_brute {
     public static void main(String[] args) throws IllegalArgumentException,
