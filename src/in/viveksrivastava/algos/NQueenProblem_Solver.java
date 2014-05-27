@@ -7,7 +7,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 /**
- * Created by ubona on 27-05-2014.
+ * Created by Vivek on 27-05-2014.
  */
 public class NQueenProblem_Solver {
 
