@@ -1,4 +1,4 @@
-package in.viveksrivastava.problems.graph.p1;
+package in.viveksrivastava.problems;
 
 /**
  * Created by Vivek on 28-05-2014.
