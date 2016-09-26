@@ -16,6 +16,7 @@ public class GraphVisualizer extends JFrame {
         Object parent = graph.getDefaultParent();
         Object v1 = null, vl = null;
         graph.getModel().beginUpdate();
+
         {
             double x1 = coorinates.get(bestSolution[0])[0];
             double y1 = coorinates.get(bestSolution[0])[1];
@@ -25,6 +26,7 @@ public class GraphVisualizer extends JFrame {
                     + "," + y1, x, y, 10, 10);
             vl = v1;
         }
+
         for (int i = 1; i < bestSolution.length; i++) {
             double x1 = coorinates.get(bestSolution[i])[0];
             double y1 = coorinates.get(bestSolution[i])[1];
@@ -33,8 +35,8 @@ public class GraphVisualizer extends JFrame {
             double x2 = coorinates.get(bestSolution[i - 1])[0];
             double y2 = coorinates.get(bestSolution[i - 1])[1];
             /*System.err.println("PLOTTING " + bestSelected[i] + "=" + +x1 + " "
-					+ y1 + " " + bestSelected[i - 1] + " " + x2 + " " + y2);*/
-			/*Object v2 = graph.insertVertex(parent, null, bestSolution[i] + ","
+                    + y1 + " " + bestSelected[i - 1] + " " + x2 + " " + y2);*/
+            /*Object v2 = graph.insertVertex(parent, null, bestSolution[i] + ","
 					+ x1 + "," + y1, x, y, 10, 10);*/
             Object v2 = graph.insertVertex(parent, null, bestSolution[i] + "",
                     x, y, 10, 10);

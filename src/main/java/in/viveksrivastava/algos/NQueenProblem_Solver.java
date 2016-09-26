@@ -19,6 +19,11 @@ public class NQueenProblem_Solver {
     private LinkedHashMap<Integer, LinkedHashSet<Integer>> tabuPair = new LinkedHashMap<Integer, LinkedHashSet<Integer>>();
     private boolean debug = false;
 
+    public static void main(String[] args) {
+        NQueenProblem_Solver nQueenProblem_solver = new NQueenProblem_Solver(1000);
+        nQueenProblem_solver.solve();
+    }
+
     public NQueenProblem_Solver(int queens) {
         this.queens = queens;
         column = new int[queens];
